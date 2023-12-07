@@ -1,0 +1,17 @@
+# docker-compose.yml
+version: "3"
+services:
+
+  pyspy:
+    build:
+      context: pyspy/
+    pid: "host"
+    privileged: "true"
+    volumes:
+      - .:/profiles
+
+  app:
+    build:
+      context: app/
+    cap_add:
+      - sys_ptrace

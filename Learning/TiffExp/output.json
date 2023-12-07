@@ -1,0 +1,79 @@
+{
+    "_accessLevel": 2,
+    "_id": "64c7d6c51d9c520d2c00a566",
+    "_modelType": "annotation",
+    "_version": 1016,
+    "annotation": {
+        "attributes": {
+            "cli": "ColorDeconvolution",
+            "params": {
+                "inputImageFile": "/mnt/girder_worker/c033b27e2388485a9896ebab33b16bd7/tcgaextract_rgbmag.tiff",
+                "maxRegionSize": 5000,
+                "outputAnnotationFile": "/mnt/girder_worker/c033b27e2388485a9896ebab33b16bd7/tt.anot",
+                "outputStainImageFile_1": "/mnt/girder_worker/c033b27e2388485a9896ebab33b16bd7/t1.tiff",
+                "outputStainImageFile_2": "/mnt/girder_worker/c033b27e2388485a9896ebab33b16bd7/t2.tiff",
+                "outputStainImageFile_3": "/mnt/girder_worker/c033b27e2388485a9896ebab33b16bd7/t3.tiff",
+                "region": [
+                    1200.0,
+                    1039.0,
+                    553.0,
+                    401.0
+                ],
+                "stain_1": "hematoxylin",
+                "stain_1_vector": [
+                    -1.0,
+                    -1.0,
+                    -1.0
+                ],
+                "stain_2": "eosin",
+                "stain_2_vector": [
+                    -1.0,
+                    -1.0,
+                    -1.0
+                ],
+                "stain_3": "null",
+                "stain_3_vector": [
+                    -1.0,
+                    -1.0,
+                    -1.0
+                ]
+            },
+            "transform": {
+                "xoffset": 1200,
+                "yoffset": 1039
+            },
+            "version": "1.2.9.dev22+g5535460f.d20230731"
+        },
+        "elements": [
+            {
+                "type": "image",
+                "girderId": "64c7d6c41d9c520d2c00a55f",
+                "id": "64c7d6c51d9c520d2c00a567"
+            }
+        ],
+        "name": "Deconvolution eosin"
+    },
+    "created": "2023-07-31T15:44:05.105000+00:00",
+    "creatorId": "648b517e32365fdd993a7f9c",
+    "groups": [
+        null
+    ],
+    "itemId": "64c3d0ac226e1e8087e62faf",
+    "public": true,
+    "updated": "2023-07-31T15:44:05.105000+00:00",
+    "updatedId": "648b517e32365fdd993a7f9c",
+    "_elementQuery": {
+        "count": 1,
+        "details": 1,
+        "filter": {
+            "_version": 1016,
+            "annotationId": "64c7d6c51d9c520d2c00a566"
+        },
+        "offset": 0,
+        "returned": 1,
+        "sort": [
+            "_id",
+            1
+        ]
+    }
+}
